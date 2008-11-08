@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeSizeButton = id; endSheet = id; }; 
+            CLASS = SizeWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                heightField = NSTextField; 
+                sizeButton = NSPopUpButton; 
+                widthField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
