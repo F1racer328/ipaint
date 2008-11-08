@@ -76,7 +76,6 @@
 		27FEFC2B0C0759C700AB63F0 /* TIFF.icns in Resources */ = {isa = PBXBuildFile; fileRef = 27FEFC260C0759C700AB63F0 /* TIFF.icns */; };
 		27FEFC2C0C0759C700AB63F0 /* GIF.icns in Resources */ = {isa = PBXBuildFile; fileRef = 27FEFC270C0759C700AB63F0 /* GIF.icns */; };
 		3078C7EC0EC5F95100F9753A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3078C7EB0EC5F95100F9753A /* icon.icns */; };
-		308EF1A20EC630D7004F4836 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308EF1A10EC630D7004F4836 /* BGHUDAppKit.framework */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
@@ -199,7 +198,6 @@
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		3078C7EB0EC5F95100F9753A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		308EF1A10EC630D7004F4836 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
 		32DBCF750370BD2300C91783 /* iPaint_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPaint_Prefix.pch; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* iPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,7 +210,6 @@
 			files = (
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
 				274A6B000BAB4AA100033B75 /* Sparkle.framework in Frameworks */,
-				308EF1A20EC630D7004F4836 /* BGHUDAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +257,6 @@
 				27FEFC260C0759C700AB63F0 /* TIFF.icns */,
 				27FEFC270C0759C700AB63F0 /* GIF.icns */,
 				270DA4B30BBF4C310086A96C /* arrow.png */,
-				308EF1A10EC630D7004F4836 /* BGHUDAppKit.framework */,
 				2774CC6D0C0A1C5200FE7F0F /* curve_orange.png */,
 				2781CBB70BBB8F0A0021338D /* scissors.png */,
 				27408E550BB22A0B0024D6F3 /* crayon_red.png */,
@@ -605,12 +601,14 @@
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../../../Desktop\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/..\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/..\"";
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -642,12 +640,14 @@
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../../../Desktop\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/..\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/..\"";
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
