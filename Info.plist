@@ -118,8 +118,8 @@
 	<key>SUFeedURL</key>
 	<string>http://ipaint.sourceforge.net/update.xml</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1</string>
+	<string>1.1</string>
 </dict>
 </plist>
