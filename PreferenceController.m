@@ -28,7 +28,7 @@
 
 - (void)windowDidLoad
 {
-	//NSLog(@"Nib file is loaded");
+//	NSLog(@"Nib file is loaded");
 }
 
 @end

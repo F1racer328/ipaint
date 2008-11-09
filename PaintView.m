@@ -18,7 +18,7 @@
 
 #import "PaintView.h"
 
-static int undoSize = 10;
+static int undoSize = 50; //Number of undos can go here.  I set it high just in case! Default is 50
 
 @implementation PaintView
 

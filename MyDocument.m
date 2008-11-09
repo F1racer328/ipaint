@@ -186,7 +186,7 @@
 	return data;
 }
 
-// By overwriting this, we can force files saved by Paintbrush to open with Paintbrush
+// By overwriting this, we can force files saved by iPaint to open with iPaint
 // in the future when double-clicked
 - (NSDictionary *)fileAttributesToWriteToURL:(NSURL *)absoluteURL
 									  ofType:(NSString *)typeName
@@ -284,7 +284,7 @@
 //	//[mainWindow setBackgroundColor:[NSColor blackColor]];
 //	//[mainWindow makeKeyAndOrderFront:nil];
 //}
-
+//
 // Cut: same as copy, but clears the overlay
 - (IBAction)cut:(id)sender
 {
