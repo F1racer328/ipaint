@@ -31,7 +31,7 @@
 + (id)sharedGridPanelController;
 - (id)init;
 - (void)windowDidLoad;
-- (void)setMainWindow:(NSWindow *)mainWindow;
+- (void)setMainWindow:(NSPanel *)mainWindow;
 - (void)mainWindowChanged:(NSNotification *)notification;
 - (void)mainWindowResigned:(NSNotification *)notification;
 - (void)updatePanel;

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2704064B0BFE3F3600C308C8 /* ToDo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2704064A0BFE3F3600C308C8 /* ToDo.rtf */; };
-		270DA4B40BBF4C310086A96C /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 270DA4B30BBF4C310086A96C /* arrow.png */; };
 		270F02730BD0218F005B92A3 /* TextToolWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 270F02710BD0218F005B92A3 /* TextToolWindowController.h */; };
 		270F02740BD0218F005B92A3 /* TextToolWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F02720BD0218F005B92A3 /* TextToolWindowController.m */; };
 		2715C9270C01F38B0004AE51 /* Classes.xcclassmodel in Resources */ = {isa = PBXBuildFile; fileRef = 2715C9260C01F38B0004AE51 /* Classes.xcclassmodel */; };
@@ -113,7 +112,6 @@
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		2704064A0BFE3F3600C308C8 /* ToDo.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ToDo.rtf; sourceTree = "<group>"; };
-		270DA4B30BBF4C310086A96C /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		270F02710BD0218F005B92A3 /* TextToolWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextToolWindowController.h; sourceTree = "<group>"; };
 		270F02720BD0218F005B92A3 /* TextToolWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextToolWindowController.m; sourceTree = "<group>"; };
 		2715C9260C01F38B0004AE51 /* Classes.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = Classes.xcclassmodel; sourceTree = "<group>"; };
@@ -256,7 +254,6 @@
 				27FEFC250C0759C700AB63F0 /* JPEG.icns */,
 				27FEFC260C0759C700AB63F0 /* TIFF.icns */,
 				27FEFC270C0759C700AB63F0 /* GIF.icns */,
-				270DA4B30BBF4C310086A96C /* arrow.png */,
 				2774CC6D0C0A1C5200FE7F0F /* curve_orange.png */,
 				2781CBB70BBB8F0A0021338D /* scissors.png */,
 				27408E550BB22A0B0024D6F3 /* crayon_red.png */,
@@ -494,7 +491,6 @@
 				27408E7E0BB232240024D6F3 /* ellipse_green.png in Resources */,
 				27D7CAF20BB50E3A007ED52B /* eraser.png in Resources */,
 				2781CBB80BBB8F0A0021338D /* scissors.png in Resources */,
-				270DA4B40BBF4C310086A96C /* arrow.png in Resources */,
 				2743D46D0BCA25D300140733 /* TextEntry.nib in Resources */,
 				2704064B0BFE3F3600C308C8 /* ToDo.rtf in Resources */,
 				2715C9270C01F38B0004AE51 /* Classes.xcclassmodel in Resources */,
